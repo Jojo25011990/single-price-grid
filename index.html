@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Single Price Grid Component</title>
+
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- I decided to go with a single section with three cards because I see it as one whole. It's part of the component, so I didn’t separate them into different sections – that’s how I see it. Feel free to share your opinion. -->
+
+		<section class="card__container">
+			<div class="card__community">
+				<h2 class="card__community-heading">Join our community</h2>
+				<p class="card__community-description">
+					30-day, hassle-free money back guarantee
+				</p>
+				<p class="card__community-details">
+					Gain access to our full library of tutorials along with
+					expert code reviews. Perfect for any developers who are
+					serious about honing their skills.
+				</p>
+			</div>
+
+			<div class="card__subscription">
+				<h3 class="card__subscription-heading">Monthly Subscription</h3>
+				<p class="card__subscription-text">
+					<span class="card__subscription-value">&dollar;29</span>
+					<span class="card__subscription-period">per month</span>
+				</p>
+				<p class="card__subscription-full-access">
+					Full access for less than &dollar;1 a day
+				</p>
+				<button class="card__subscription-btn">Sign Up</button>
+			</div>
+
+			<div class="card__why-us">
+				<h3 class="card__why-us-heading">Why Us</h3>
+				<ul class="card__why-us-list">
+					<li class="card__why-us-item">
+						Tutorials by industry experts
+					</li>
+					<li class="card__why-us-item">Peer & expert code review</li>
+					<li class="card__why-us-item">Coding exercises</li>
+					<li class="card__why-us-item">
+						Access to our GitHub repos
+					</li>
+					<li class="card__why-us-item">Community forum</li>
+					<li class="card__why-us-item">Flashcard decks</li>
+					<li class="card__why-us-item">New videos every week</li>
+				</ul>
+			</div>
+		</section>
+
+		<footer>
+			<p class="attribution" hidden>
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#">Jozef Kudrna</a>.
+			</p>
+		</footer>
+	</body>
+</html>

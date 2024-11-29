@@ -1,0 +1,17 @@
+{
+	"name": "single-price-grid-component-master",
+	"version": "1.0.0",
+	"description": "This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon -e scss -x \"npm run sass\"",
+		"sass": "sass sass/main.scss css/style.css --no-source-map"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.7",
+		"sass": "^1.81.0"
+	}
+}
